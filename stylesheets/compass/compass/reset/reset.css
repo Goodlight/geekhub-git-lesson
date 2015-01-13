@@ -1,0 +1,141 @@
+/* line 1, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 2, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+body {
+  padding: 0;
+  margin: 0;
+  font: 12px Tahoma, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+/* line 3, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, label, select, checkbox, input, textarea {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style: none;
+}
+
+/* line 9, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+select, input, textarea {
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+/* line 10, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+textarea {
+  vertical-align: top;
+}
+
+/* line 11, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+:focus {
+  outline: none;
+}
+
+/* line 12, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+input[type=submit] {
+  cursor: pointer;
+}
+
+/* line 13, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+img, fieldset {
+  border: 0;
+}
+
+/* line 14, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 15, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+a:link, a:visited {
+  font: 12px Tahoma, sans-serif;
+  color: #000;
+  text-decoration: underline;
+}
+
+/* line 16, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 18, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+.float-r {
+  float: right !important;
+}
+
+/* line 19, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+.float-l {
+  float: left !important;
+}
+
+/* line 20, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+.no-float {
+  float: none !important;
+}
+
+/* line 21, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+.no-border {
+  border: 0 !important;
+}
+
+/* line 22, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+.no-bg {
+  background: none !important;
+}
+
+/* line 23, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+.no-margin {
+  margin: 0 !important;
+}
+
+/* line 24, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+.no-padding {
+  padding: 0 !important;
+}
+
+/* line 25, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+.no-display {
+  display: none !important;
+}
+
+/* line 26, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+.display {
+  display: block !important;
+}
+
+/* line 27, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+.inline {
+  display: inline !important;
+}
+
+/* line 28, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+.overflow {
+  overflow: hidden !important;
+}
+
+/* line 29, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+.align-r {
+  text-align: right !important;
+}
+
+/* line 30, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+.align-l {
+  text-align: left !important;
+}
+
+/* line 31, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+.align-c {
+  text-align: center !important;
+}
+
+/* line 32, ../../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/reset.scss */
+.clear {
+  clear: both;
+}
