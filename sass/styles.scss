@@ -79,9 +79,14 @@ video#bgVideo {
     overflow: hidden;
     background-size: cover;
 }
+.fix-wrap{
+        width:100%;
+        max-width: 1200px;
+}
 .head{
     z-index: 999;
     width:100%;
+    max-width: 1170px;
 .header{
     z-index: 999;
     text-align: center;
@@ -194,7 +199,7 @@ a.menu-link {
         h2{
             position: relative;
             font-family: 'droid_sansbold', sans-serif;
-            font-size: 6.66em; 
+            font-size: 6.2em; 
             text-align: center;
             letter-spacing: 1px;
             line-height: 92px;
@@ -468,26 +473,33 @@ a.menu-link {
         .twitter {
             float: left;
             display: inline-block;
-            width: 59px;
-            height: 59px;
             overflow: hidden;
-            text-indent: -999px;
-            background-image: url("../images/twitter.png");
-            background-repeat: no-repeat;
         }
         .instagram{
             display: inline-block;
-            width: 59px;
-            height: 59px;
             margin-left: 20px;
             overflow: hidden;
-            text-indent: -999px;
-            background-image: url("../images/instagram.png");
-            background-repeat: no-repeat;
+            }
+            i{
+            width: 60px;
+            height: 60px;
+            padding: 10px;
+            border: 2px solid #fff;
+            border-radius: 45px 45px 45px 45px;
+        -webkit-border-radius: 45px 45px 45px 45px;
+        -ms-border-radius: 45px 45px 45px 45px;
+        -moz-border-radius: 45px 45px 45px 45px;
+        &:hover{
+  -webkit-transform: scale3d(.95, .95, .95);
+            transform: scale3d(.95, .95, .95);
+            color: #b8d8fb;
+            border-color: #b8d8fb;
+              }
+           } 
         }
     }
 
-}
+
 .contact{
     background-color: #fff;
     color: #2c3e50;
@@ -556,12 +568,7 @@ a.menu-link {
     img{
         margin: 75px 0px 35px 0px;
     }
-    .adress{
-        line-height: 2em;
-        font-family: 'droid_sansbold', sans-serif;
-        font-size: 1.33em;
-    }
-    .mail-phone{
+    .adress, .mail-phone{
         line-height: 2em;
         font-family: 'droid_sansbold', sans-serif;
         font-size: 1.33em;
@@ -571,34 +578,26 @@ a.menu-link {
         float: left;
         a{
             display: inline-block;
-            text-indent: -999px;
+            width: 80px;
+            height: 60px;
+            margin-bottom: 10px;
         }
-        .twitter{
-            width: 59px;
-            height: 59px;
-            overflow: hidden;
-            text-indent: -999px;
-            margin-left: 20px;
-            background-image: url("../images/twitter.png");
-            background-repeat: no-repeat;
-        }
-        .facebook{
-            width: 59px;
-            height: 59px;
-            overflow: hidden;
-            margin-left: 20px;
-            text-indent: -999px;
-            background-image: url("../images/facebook.png");
-            background-repeat: no-repeat;
-        }
-        .instagram{
-            width: 59px;
-            height: 59px;
-            margin-left: 20px;
-            overflow: hidden;
-            text-indent: -999px;
-            background-image: url("../images/instagram.png");
-            background-repeat: no-repeat;
+        i{
+            width: 60px;
+            height: 60px;
+            padding: 10px;
+            text-align: center;
+            border: 2px solid #fff;
+            border-radius: 45px 45px 45px 45px;
+        -webkit-border-radius: 45px 45px 45px 45px;
+        -ms-border-radius: 45px 45px 45px 45px;
+        -moz-border-radius: 45px 45px 45px 45px;
+        &:hover{
+  -webkit-transform: scale3d(.95, .95, .95);
+            transform: scale3d(.95, .95, .95);
+            color: #b8d8fb;
+            border-color: #b8d8fb;
+              }
         }
     }
 
@@ -635,6 +634,13 @@ a.menu-link {
 
         }
     }
+    .down-row{
+            display: block;
+            text-align: center;
+            background-image: url("../images/line.jpg");
+            background-repeat: repeat-x;
+            background-position: 0px 30px;
+        }
     .footer{
         text-align: center;
         .soc-icons{
@@ -672,11 +678,13 @@ a.menu-link {
 
 
 .f-head{
+    -webkit-transform: translateZ( 0 );
     z-index: 9999;
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
+    max-width: 1920px;
     height: 70px;
     background: #2c3e50;
     h1{
